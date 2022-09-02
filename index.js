@@ -11,7 +11,7 @@ module.exports = {
         "*.html",
         "**/*.html",
       ],
-      customSyntax: require("postcss-html"),
+      customSyntax: require("postcss-html")(),
     },
   ],
 };

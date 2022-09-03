@@ -24,9 +24,11 @@ importers:
       '@so1ve/stylelint-config-basic': workspace:*
       '@so1ve/stylelint-config-scss': workspace:*
       eslint: ^8.23.0
+      postcss-html: ^1.5.0
     dependencies:
       '@so1ve/stylelint-config-basic': link:../basic
       '@so1ve/stylelint-config-scss': link:../scss
+      postcss-html: 1.5.0
     devDependencies:
       eslint: 8.23.0
 
@@ -56,10 +58,12 @@ importers:
     specifiers:
       '@so1ve/stylelint-config-basic': workspace:*
       eslint: ^8.23.0
+      postcss-html: ^1.5.0
       stylelint-config-standard-scss: ^5.0.0
       stylelint-scss: ^4.3.0
     dependencies:
       '@so1ve/stylelint-config-basic': link:../basic
+      postcss-html: 1.5.0
       stylelint-config-standard-scss: 5.0.0
       stylelint-scss: 4.3.0
     devDependencies:

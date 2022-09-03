@@ -6,4 +6,18 @@ module.exports = {
   plugins: [
     "stylelint-scss",
   ],
+  overrides: [
+    {
+      files: [
+        "*.vue",
+        "**/*.vue",
+        "*.html",
+        "**/*.html",
+      ],
+      customSyntax: require("postcss-html")(),
+    },
+  ],
+  rules: {
+    "scss/at-rule-no-unknown": null,
+  },
 };

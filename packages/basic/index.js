@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
+    "@so1ve/stylelint-config-order",
     "stylelint-config-standard",
-    "./order.js",
   ],
   overrides: [
     {
@@ -14,4 +14,8 @@ module.exports = {
       customSyntax: require("postcss-html")(),
     },
   ],
+  rules: {
+    "at-rule-no-unknown": null,
+    "block-no-empty": null,
+  },
 };

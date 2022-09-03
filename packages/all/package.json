@@ -1,8 +1,12 @@
 {
-  "name": "@so1ve/stylelint-config-monorepo",
-  "private": true,
+  "name": "@so1ve/stylelint-config",
+  "version": "0.2.0",
   "author": "Ray <nn_201312@163.com> (https://github.com/so1ve/)",
-  "description": "Monorepo for Ray's eslint config.",
+  "description": "Ray's stylelint config.",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
   "homepage": "https://github.com/so1ve/stylelint-config#readme",
   "repository": {
     "type": "git",
@@ -12,24 +16,25 @@
     "url": "https://github.com/so1ve/stylelint-config/issues"
   },
   "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
-    "lint": "eslint .",
-    "lint:fix": "nr lint --fix",
-    "release": "bumpp packages/*/package.json --commit --push --tag && pnpm publish -r --filter=./packages/*"
+    "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
     "postcss": "^8.3.11",
     "stylelint": "^14.11.0"
   },
   "dependencies": {
-    "postcss-html": "^1.5.0",
-    "stylelint-config-standard": "^28.0.0",
-    "stylelint-order": "^5.0.0"
+    "@so1ve/stylelint-config-basic": "workspace:*",
+    "@so1ve/stylelint-config-scss": "workspace:*"
   },
   "devDependencies": {
-    "@so1ve/eslint-config-basic": "^0.29.0",
-    "bumpp": "^8.2.1",
     "eslint": "^8.23.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

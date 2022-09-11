@@ -17,5 +17,6 @@ module.exports = {
   rules: {
     "at-rule-no-unknown": null,
     "block-no-empty": null,
+    "value-keyword-case": null,
   },
 };

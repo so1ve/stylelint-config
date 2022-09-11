@@ -1,6 +1,6 @@
 {
   "name": "@so1ve/stylelint-config",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Ray <nn_201312@163.com> (https://github.com/so1ve/)",
   "description": "Ray's stylelint config.",
   "keywords": [

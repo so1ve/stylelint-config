@@ -18,5 +18,9 @@ module.exports = {
     "at-rule-no-unknown": null,
     "block-no-empty": null,
     "value-keyword-case": null,
+    // e.g. :deep(.class) { ... }
+    "selector-pseudo-class-no-unknown": null,
+    "max-line-length": null,
+    "no-descending-specificity": null,
   },
 };

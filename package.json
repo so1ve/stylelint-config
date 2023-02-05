@@ -1,7 +1,7 @@
 {
   "name": "@so1ve/stylelint-config-monorepo",
   "private": true,
-  "author": "Ray <nn_201312@163.com> (https://github.com/so1ve/)",
+  "author": "Ray <i@mk1.io> (https://github.com/so1ve/)",
   "description": "Monorepo for Ray's eslint config.",
   "homepage": "https://github.com/so1ve/stylelint-config#readme",
   "repository": {

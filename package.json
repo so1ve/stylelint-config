@@ -28,7 +28,7 @@
     "stylelint-order": "^5.0.0"
   },
   "devDependencies": {
-    "@so1ve/eslint-config-basic": "^0.103.0",
+    "@so1ve/eslint-config-basic": "^0.122.0",
     "bumpp": "^8.2.1",
     "eslint": "^8.23.0"
   }
